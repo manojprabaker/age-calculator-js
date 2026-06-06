@@ -31,6 +31,6 @@ btn.addEventListener("click", function () {
   let mon = mm - m; 
   let year = yy - y ;
   
-  res.innerHTML=`${year} years ${mon} months  ${dat} days`
+  res.innerHTML=`${year} years ${mon} months  ${dat} days old`;
   console.log(dat,mon,year);
 });
