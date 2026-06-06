@@ -29,7 +29,7 @@ btn.addEventListener("click", function () {
   }
   let dat = dd - d;
   let mon = mm - m; 
-  let year = yy - y;
+  let year = yy - y ;
   
   res.innerHTML=`${year} years ${mon} months  ${dat} days`
   console.log(dat,mon,year);
