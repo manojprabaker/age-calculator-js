@@ -14,7 +14,7 @@ btn.addEventListener("click", function () {
   let dd = dateToday.getDate();
   let mm = dateToday.getMonth() + 1;
   let yy = dateToday.getFullYear();   
-    
+
   
   //console.log(dd,mm,yy);
      
@@ -28,7 +28,7 @@ btn.addEventListener("click", function () {
     yy --;
   }
   let dat = dd - d;
-  let mon = mm - m;
+  let mon = mm - m; 
   let year = yy - y;
   
   res.innerHTML=`${year} years ${mon} months  ${dat} days`
