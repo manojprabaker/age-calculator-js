@@ -13,7 +13,7 @@ btn.addEventListener("click", function () {
   let dd = dateToday.getDate();
   let mm = dateToday.getMonth() + 1;
   let yy = dateToday.getFullYear();
-
+  
   //console.log(dd,mm,yy);
      
   let month = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
