@@ -5,7 +5,7 @@ let btn = document.getElementById("age-btn");
 
 
 btn.addEventListener("click", function () {
-  
+
   let d = parseInt(document.getElementById("date").value);
   let m = parseInt(document.getElementById("month").value);
   let y = parseInt(document.getElementById("year").value);
@@ -13,7 +13,7 @@ btn.addEventListener("click", function () {
   let dateToday = new Date();
   let dd = dateToday.getDate();
   let mm = dateToday.getMonth() + 1;
-  let yy = dateToday.getFullYear();
+  let yy = dateToday.getFullYear();   
   
   //console.log(dd,mm,yy);
      
