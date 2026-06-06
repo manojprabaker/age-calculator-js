@@ -1,7 +1,5 @@
 let res = document.getElementById("result");
 
-
-
 let btn = document.getElementById("age-btn");
 
 btn.addEventListener("click", function () {
